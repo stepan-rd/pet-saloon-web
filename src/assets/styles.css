@@ -1,0 +1,37 @@
+/* styles.css */
+
+.dark-mode-scrollbar {
+  /* WebKit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #1a1a1a; /* Background color of the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #4f4f4f; /* Color of the scrollbar thumb (the draggable part) */
+    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #6b6b6b; /* Color of the scrollbar thumb on hover */
+  }
+
+  /* Firefox */
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #4f4f4f #1a1a1a; /* Scrollbar thumb color and track color */
+}
+
+/* Apply the scrollbar styles globally */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: auto;
+  /* Ensure all scrollable areas have the custom scrollbar */
+  &.dark-mode-scrollbar {
+    overflow: auto;
+  }
+}
