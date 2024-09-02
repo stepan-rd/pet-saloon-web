@@ -1,4 +1,3 @@
-import React from "react";
 import { Heading } from "./Heading";
 import { TestimonialGridXl } from "./TestimonialGridXl";
 import { TestimonialGridMd } from "./TestimonialGridMd";

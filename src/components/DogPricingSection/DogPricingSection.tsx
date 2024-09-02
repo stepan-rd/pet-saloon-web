@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import animalData from "@/data/animals.json";
 import { Animal } from "@/types/global";
-import { motion } from "framer-motion";
-import { useAppThemeStore } from "@/stores/useAppTheme";
 import { PricingCard } from "./PricingCard";
 import { DogSizeBtns } from "@/components/DogPricingSection/DogSizeBtns";
 
@@ -13,7 +11,6 @@ const animal: Animal =
 type Props = {};
 
 export function DogPricingSection({}: Props) {
-  const { theme } = useAppThemeStore();
 
   const [currDisplayingSizeIndex, setCurrDisplayingSizeIndex] =
     useState<number>(2);

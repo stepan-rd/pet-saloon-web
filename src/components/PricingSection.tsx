@@ -1,8 +1,5 @@
-import React from "react";
 import { Heading } from "./Heading";
 import { DogPricingSection } from "./DogPricingSection/DogPricingSection";
-import { PricingCard } from "./DogPricingSection/PricingCard";
-import { Animal } from "@/types/global";
 import { OtherPetsSection } from "./OtherPetsSection";
 
 type Props = {};

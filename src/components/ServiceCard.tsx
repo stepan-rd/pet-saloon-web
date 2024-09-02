@@ -2,7 +2,6 @@ import { Service } from "@/types/global";
 import { useScroll, motion, Variants } from "framer-motion";
 import { useState } from "react";
 
-const scrollTrigger = 1300;
 
 const cardVariants: Variants = {
   offScreen: {
@@ -28,7 +27,6 @@ type Props = {
 };
 
 export function ServiceCard({ service }: Props) {
-  const { scrollY } = useScroll();
 
   const [isHovered, setIsHovered] = useState(false);
 

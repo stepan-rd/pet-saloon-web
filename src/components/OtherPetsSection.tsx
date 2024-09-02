@@ -1,4 +1,3 @@
-import React from "react";
 import { PricingCard } from "./DogPricingSection/PricingCard";
 import { Animal } from "@/types/global";
 import animalData from "@/data/animals.json";

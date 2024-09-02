@@ -19,6 +19,7 @@ export function TrustCard({
   initialX = -50,
   appearAnimationDelay = 0.3
 }: Props) {
+  
   const cardVariants: Variants = {
     offScreen: {
       x: initialX,

@@ -27,8 +27,6 @@ export function Navbar() {
 
   }, []);
 
-  const handleBookAppointmentClick = useCallback(() => {}, []);
-
   const navItems = [
     { label: "About", onClick: () => handleNavClick("about") },
     { label: "Services", onClick: () => handleNavClick("services") },

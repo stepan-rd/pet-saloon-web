@@ -10,7 +10,7 @@ type theme = {
 type Store = {
   theme: theme;
 }
-export const useAppThemeStore = create<Store>((set)=>({
+export const useAppThemeStore = create<Store>(()=>({
   theme : {
     headingTextColor: "#292524",
     paragraphTextColor: "#57534e",
