@@ -1,0 +1,77 @@
+[
+  {
+    "type": "Dog",
+    "sizes": [
+      {
+        "size": "X-Small",
+        "weight": "up to 5 kg",
+        "imgSrc": "/X-SmallDog.png",
+        "priceStart": {
+          "Grooming Pack": 29.99,
+          "Bath & Brush": 8.99,
+          "Nail Trimming": 5.99,
+          "Specialty Cuts": 20.99
+        }
+      },
+      {
+        "size": "Small",
+        "weight": "5-11 kg",
+        "imgSrc": "/smallDog.png",
+        "priceStart": {
+          "Grooming Pack": 39.99,
+          "Bath & Brush": 9.99,
+          "Nail Trimming": 6.99,
+          "Specialty Cuts": 29.99
+        }
+      },
+      {
+        "size": "Medium",
+        "weight": "12-22 kg",
+        "imgSrc": "/mediumDog.png",
+        "priceStart": {
+          "Grooming Pack": 49.99,
+          "Bath & Brush": 19.99,
+          "Nail Trimming": 9.99,
+          "Specialty Cuts": 39.99
+        }
+      },
+      {
+        "size": "Large",
+        "weight": "23-36 kg",
+        "imgSrc": "/largeDog.png",
+        "priceStart": {
+          "Grooming Pack": 69.99,
+          "Bath & Brush": 29.99,
+          "Nail Trimming": 9.99,
+          "Specialty Cuts": 59.99
+        }
+      },
+      {
+        "size": "X-Large",
+        "weight": "36kg+",
+        "imgSrc": "/X-largeDog.png",
+        "priceStart": {
+          "Grooming Pack": 99.99,
+          "Bath & Brush": 49.99,
+          "Nail Trimming": 9.99,
+          "Specialty Cuts": 79.99
+        }
+      }
+    ]
+  },
+  {
+    "type": "Cat",
+    "sizes": [
+      {
+        "size": "Standard",
+        "weight": "Cats up to 7 kg",
+        "imgSrc": "",
+        "priceStart": {
+          "Grooming Pack": 29.99,
+          "Bath & Brush": 10.99,
+          "Specialty Cuts": 39.99
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "iconSrc": "/starIcon.svg",
+    "title": "Experienced Groomers",
+    "description": "Our team has years of experience and a passion for pets."
+  },
+  {
+    "iconSrc": "/flowerIcon.svg",
+    "title": "Stress-Free Environment",
+    "description": "We create a calm and comfortable space for every pet."
+  },
+  {
+    "iconSrc": "/hearthIcon.svg",
+    "title": "Personalized Care",
+    "description": "Each grooming session is tailored to your pet's specific needs."
+  },
+  {
+    "iconSrc": "/shieldCheckIcon.svg",
+    "title": "Safe Products",
+    "description": "We use only high-quality, pet-safe products for grooming."
+  }
+]

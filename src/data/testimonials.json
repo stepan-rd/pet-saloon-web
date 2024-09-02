@@ -1,0 +1,47 @@
+[
+  {
+      "name": "Liam Scott",
+      "role": "Ferret Owner",
+      "testimonial": "Ziggy used to hate grooming, but now he’s at ease. The team is gentle and skilled, and it shows in how comfortable he is."
+  },
+  {
+      "name": "Emma Richardson",
+      "role": "Dog Owner",
+      "testimonial": "Bella always looks fantastic. Highly recommended!"
+  },
+  {
+    "name": "Laura Mitchell",
+    "role": "Rabbit Owner",
+    "testimonial": "Fluffy’s grooming experience is always top-notch. The staff are so gentle and professional."
+  },
+  {
+    "name": "Grace Adams",
+    "role": "Hedgehog Owner",
+    "testimonial": "Grooming a hedgehog can be tricky, but the team handles Spike with such care. They use high-quality products and the results are always impressive."
+  },
+  {
+    "name": "Ethan Turner",
+    "role": "Bird Owner",
+    "testimonial": "Kiwi’s feathers look great every time. The environment is calm and perfect for my parrot."
+  },
+  {
+    "name": "Samantha Lewis",
+    "role": "Guinea Pig Owner",
+    "testimonial": "Cocoa is always well cared for. The grooming is thorough and the products are top quality."
+  },
+  {
+    "name": "Andrew Parker",
+    "role": "Rat Owner",
+    "testimonial": "Pip and Squeak are handled with care. The grooming is effective, and the staff are fantastic with them."
+  },
+  {
+    "name": "Chloe White",
+    "role": "Dog and Cat Owner",
+    "testimonial": "Both my dog and cat get excellent care here. The personalized attention and the calm environment make a big difference."
+  },
+  {
+      "name": "James Carter",
+      "role": "Cat Owner",
+      "testimonial": "Luna is so calm after her grooming. They really know how to handle her."
+  }
+]

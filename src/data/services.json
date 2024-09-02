@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Full Grooming Package",
+    "desc": "Our comprehensive grooming package ensures your pet is clean, comfortable, and looking their best. Perfect for regular maintenance.",
+    "includes": "Bath, Haircut, Nail trim, Ear cleaning And more"
+  },
+  {
+    "name": "Bath & Brush",
+    "desc": "Keep your pet’s coat sleek and clean with our bath and brush service. Ideal for pets who don’t need a full haircut but could use a freshen-up.",
+    "includes": "A refreshing bath, Gentle brushing"
+  },
+  {
+    "name": "Nail Trimming",
+    "desc": "Our nail trimming service keeps your pet's nails at a healthy length, reducing the risk of discomfort or injury.",
+    "includes": "Expert nail care"
+  },
+  {
+    "name": "Specialty Cuts",
+    "desc": "Whether it’s a breed-specific cut or a style that shows off your pet's unique character, our groomers deliver exactly what you want.",
+    "includes": "Custom styles tailored to your pet's breed and personality"
+  }
+]
