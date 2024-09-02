@@ -6,10 +6,26 @@ export function Navbar() {
   const { theme } = useAppThemeStore();
 
   const handleLogoClick = useCallback(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({top: 0, behavior: "smooth"});
   }, []);
 
-  const handleNavClick = useCallback((section: string) => {}, []);
+  const handleNavClick = useCallback((section: string) => {
+
+    switch(section) {
+
+      case "about":
+        window.scrollTo({ top: 2200 ,behavior: "smooth"})
+        break
+      case "services":
+        window.scrollTo({ top: 1300 ,behavior: "smooth"})
+        break
+      case "contact":
+        window.scrollTo({ top: 9999, behavior: "smooth"})
+        break
+
+    }
+
+  }, []);
 
   const handleBookAppointmentClick = useCallback(() => {}, []);
 
@@ -20,7 +36,7 @@ export function Navbar() {
   ];
 
   return (
-    <div className="fixed z-10 flex items-center w-full h-12 px-4 bg-white">
+    <div className="fixed z-20 flex items-center w-full h-12 px-4 bg-white">
       <h1
         className="text-xl font-bold cursor-pointer"
         style={{ color: theme.headingTextColor }}
@@ -32,7 +48,7 @@ export function Navbar() {
       <div className="flex items-center gap-5">
         {navItems.map((navItem) => (
           <motion.a
-            className="cursor-pointer"
+            className="hidden cursor-pointer md:block"
             whileHover={{ color: theme.hoverTextColor }}
             style={{ color: theme.paragraphTextColor }}
             onClick={navItem.onClick}
