@@ -12,8 +12,8 @@ type Store = {
 }
 export const useAppThemeStore = create<Store>((set)=>({
   theme : {
-    headingTextColor: "#1A1A1A",
-    paragraphTextColor: "#454545",
+    headingTextColor: "#292524",
+    paragraphTextColor: "#57534e",
     hoverTextColor: "#27e841",
   },
 }))
