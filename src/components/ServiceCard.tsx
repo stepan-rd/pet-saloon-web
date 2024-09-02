@@ -1,5 +1,5 @@
 import { Service } from "@/types/global";
-import { useScroll, motion, Variants } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { useState } from "react";
 
 
