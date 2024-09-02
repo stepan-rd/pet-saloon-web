@@ -2,7 +2,7 @@
   "name": "git-projects",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://stepan-rd.github.io/your-repo-name/",
+  "homepage": "https://stepan-rd.github.io/pet-saloon-web",
   "type": "module",
   "scripts": {
     "dev": "vite",
