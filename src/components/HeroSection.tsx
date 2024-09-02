@@ -24,15 +24,33 @@ const HeroContainer = styled.div`
     flex-direction: row;
     align-items: flex-start;
   }
+
+  @media (min-width: 809px}) {
+    width: 100%;
+  }
 `;
 
 const DogImage = styled.img`
   width: 400px;
   height: 815px;
+  margin-top: 30px;
 
   @media (max-width: ${breakpoints.sm}) {
     display: none;
   }
+`;
+
+const TextContainer = styled.div`
+  width: 475px;
+
+
+  @media (max-width: 809px) {
+  
+    width: 100%
+  }
+
+
+
 `;
 
 export default function HeroSection({}: Props) {
@@ -40,9 +58,8 @@ export default function HeroSection({}: Props) {
 
   return (
     <HeroContainer>
-      <div
-        className="flex flex-col items-center pt-20 w-fit"
-        style={{ width: "475px" }}
+      <TextContainer
+        className="flex flex-col items-center px-4 pt-20 w-fit" 
       >
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -53,15 +70,30 @@ export default function HeroSection({}: Props) {
         >
           Pamper Your Pet with Professional Grooming{" "}
         </motion.h1>
-        <p
-          className="mt-4 text-4xl font-bold"
+        <motion.p
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="mt-4 text-4xl font-bold text-center"
           style={{ color: theme.paragraphTextColor }}
         >
           Expert care, gentle hands, and a happy pet every time.
-        </p>
-        <Button className="mt-10">Book your appointment today</Button>
-      </div>
-      <DogImage src="/landingPageDogNoD.png" alt="happyDawg" />
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1.2 }}
+        >
+          <Button className="mt-10">Book your appointment today</Button>
+        </motion.div>
+      </TextContainer>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+      >
+        <DogImage src="/landingPageDogNoD.png" alt="happyDawg" />
+      </motion.div>
     </HeroContainer>
   );
 }
