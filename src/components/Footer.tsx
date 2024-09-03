@@ -21,7 +21,7 @@ export function Footer({}: Props) {
             onClick={handleInstagramLogoClick}
             width={21}
             height={24}
-            src="instagramIcon.svg"
+            src="/instagramIcon.svg"
             alt="instagramIcon"
           />
           <img
@@ -29,7 +29,7 @@ export function Footer({}: Props) {
             onClick={handleTwitterLogoClick}
             width={22}
             height={22}
-            src="twitterIcon.svg"
+            src="/twitterIcon.svg"
             alt="twitterIcon"
           />
         </div>
