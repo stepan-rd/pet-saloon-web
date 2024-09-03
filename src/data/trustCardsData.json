@@ -1,21 +1,21 @@
 [
   {
-    "iconSrc": "/starIcon.svg",
+    "iconSrc": "/pet-saloon-web/starIcon.svg",
     "title": "Experienced Groomers",
     "description": "Our team has years of experience and a passion for pets."
   },
   {
-    "iconSrc": "/flowerIcon.svg",
+    "iconSrc": "/pet-saloon-web/flowerIcon.svg",
     "title": "Stress-Free Environment",
     "description": "We create a calm and comfortable space for every pet."
   },
   {
-    "iconSrc": "/hearthIcon.svg",
+    "iconSrc": "/pet-saloon-web/hearthIcon.svg",
     "title": "Personalized Care",
     "description": "Each grooming session is tailored to your pet's specific needs."
   },
   {
-    "iconSrc": "/shieldCheckIcon.svg",
+    "iconSrc": "/pet-saloon-web/shieldCheckIcon.svg",
     "title": "Safe Products",
     "description": "We use only high-quality, pet-safe products for grooming."
   }

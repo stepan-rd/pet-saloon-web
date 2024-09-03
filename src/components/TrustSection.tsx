@@ -52,7 +52,7 @@ export function TrustSection({}: Props) {
               width={320}
               height={389}
               className="z-10 hidden md:block"
-              src="/catTrust.png"
+              src={import.meta.env.BASE_URL + "/catTrust.png"}
               alt=""
             />
           </div>

@@ -5,7 +5,7 @@
       {
         "size": "X-Small",
         "weight": "up to 5 kg",
-        "imgSrc": "/X-SmallDog.png",
+        "imgSrc": "/pet-saloon-web/X-SmallDog.png",
         "priceStart": {
           "Grooming Pack": 29.99,
           "Bath & Brush": 8.99,
@@ -16,7 +16,7 @@
       {
         "size": "Small",
         "weight": "5-11 kg",
-        "imgSrc": "/smallDog.png",
+        "imgSrc": "/pet-saloon-web/smallDog.png",
         "priceStart": {
           "Grooming Pack": 39.99,
           "Bath & Brush": 9.99,
@@ -27,7 +27,7 @@
       {
         "size": "Medium",
         "weight": "12-22 kg",
-        "imgSrc": "/mediumDog.png",
+        "imgSrc": "/pet-saloon-web/mediumDog.png",
         "priceStart": {
           "Grooming Pack": 49.99,
           "Bath & Brush": 19.99,
@@ -38,7 +38,7 @@
       {
         "size": "Large",
         "weight": "23-36 kg",
-        "imgSrc": "/largeDog.png",
+        "imgSrc": "/pet-saloon-web/largeDog.png",
         "priceStart": {
           "Grooming Pack": 69.99,
           "Bath & Brush": 29.99,
