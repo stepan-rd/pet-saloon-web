@@ -92,7 +92,7 @@ export default function HeroSection({}: Props) {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <DogImage src="/landingPageDogNoD.png" alt="happyDawg" />
+        <DogImage src="public/landingPageDogNoD.png" alt="happyDawg" />
       </motion.div>
     </HeroContainer>
   );

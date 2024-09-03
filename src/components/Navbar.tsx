@@ -11,19 +11,23 @@ export function Navbar() {
 
   const handleNavClick = useCallback((section: string) => {
 
-    switch(section) {
+    let topValue = 0;
 
+
+    switch(section) {
       case "about":
-        window.scrollTo({ top: 2200 ,behavior: "smooth"})
+        topValue = window.innerWidth < 1200 ? 2900 : 2500
         break
       case "services":
-        window.scrollTo({ top: 1300 ,behavior: "smooth"})
+        topValue = window.innerWidth < 1200 ? 1750 : 1350
         break
       case "contact":
-        window.scrollTo({ top: 9999, behavior: "smooth"})
+        topValue = 9999
         break
 
     }
+
+    window.scrollTo({ top: topValue ,behavior: "smooth"})
 
   }, []);
 
