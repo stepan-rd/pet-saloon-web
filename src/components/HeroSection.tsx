@@ -68,7 +68,7 @@ export default function HeroSection({}: Props) {
           className="w-full text-5xl font-bold text-center"
           style={{ color: theme.headingTextColor }}
         >
-          Pamper Your Pet with Professional GroomingKOKOT{" "}
+          Pamper Your Pet with Professional Grooming{" "}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
@@ -92,7 +92,7 @@ export default function HeroSection({}: Props) {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <DogImage src="public/landingPageDogNoD.png" alt="happyDawg" />
+        <DogImage src="landingPageDogNoD.png" alt="happyDawg" />
       </motion.div>
     </HeroContainer>
   );
