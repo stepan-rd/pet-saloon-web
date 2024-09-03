@@ -68,7 +68,7 @@ export default function HeroSection({}: Props) {
           className="w-full text-5xl font-bold text-center"
           style={{ color: theme.headingTextColor }}
         >
-          Pamper Your Pet with Professional Grooming{" "}
+          Pamper Your Pet with Professional GroomingKOKOT{" "}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
